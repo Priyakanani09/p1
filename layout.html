@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/all.min.css">
+    <style>
+        .container{
+          height: 600px;
+        }
+        .size{
+            width: 130px;
+        }
+        .ml-10{
+            margin-left: 25%;
+        }
+        .font{
+            font-size: 17px;
+        }
+        .color{
+            background-color: rgb(250, 250, 250);
+        }
+        h2{
+          font-size: 80px;
+          font-weight: 300;
+          font-family: Playfair Display;
+        }
+        h1{
+          font-size: 80px;
+          font-weight: 300;
+          font-family: Playfair Display;
+        }
+        h3{
+          font-family: playfair Display;
+          font-size: 45px;
+        }
+        h4{
+          font-family: playfair Display;
+          font-size: 45px;
+        }
+        h5{
+          font-weight: normal;
+          color: #696565;
+          font-size: 19px;
+        }
+        h6{
+          font-size: 18px;
+          font-weight: 400;
+        }
+        .pt-10{
+          padding-top: 10%;
+        }
+        .pt-20{
+          padding-top: 80%;
+        }
+        .pt{
+          padding-top: 7%;
+        }
+        .ms-10{
+          margin-left: 10%;
+        }
+        .ms-20{
+          margin-left: 20%;
+        }
+        .btn{
+          background-color: white;
+          color: black;
+          padding: 15px 30px;
+          margin: 10px;
+          border-radius: 0px;
+        }
+        .btn:hover{
+          background-color: black;
+          color: white;
+        }
+        .btn1{
+          background-color: black;
+          color: white;
+          padding: 12px 35px;
+          /* margin: 10px; */
+          border-radius: 0px;
+          border: none;
+        }
+        .btn1:hover{
+          background-color: #ae845f;
+          color: white;
+        }
+        .btn2{
+          background-color: white;
+          color: black;
+          padding: 15px 37px;
+          /* margin: 10px; */
+          border-radius: 0px;
+          border: none;
+        }
+        .btn2:hover{
+          background-color: #ae845f;
+          color: white;
+        }
+        .btn0{
+          background-color: black;
+          color: white;
+          border-radius: 30px;
+          padding: 8px 30px;
+          font-size: 20px;
+        }
+        .center{
+          align-items: center;
+        }
+        .color1{
+          color:#ae845f;
+          font-weight: 500;
+          text-transform: uppercase;
+          font-size: 15px;
+        }
+        .border1{
+          border: none;
+        }
+        .bg-color{
+          background-color: #dedbdb;
+        }
+
+        .word{
+          word-break: keep-all;
+        }
+        .icon{
+          border: 1px solid black;
+          border-radius: 20px;
+          padding: 6px 6px 6px 6px;
+        }
+        .line{
+          line-height: 2;
+        }
+        a{
+          text-decoration: none;
+        }
+        .figure{
+            width: 300px;
+            height: 100px;
+            transition: all ease-in-out 0.4s;
+            position: absolute;
+            bottom: -250px;
+            left: 90px;
+            opacity: 0;
+        }
+        .outer:hover .figure{
+            bottom: -200px;
+            opacity: 1;
+        }
+        .outer{
+            width: 400px;
+            height: 200px;
+            /* background-color: aqua; */
+            position: relative;
+            margin: 5px;
+            
+            float: left;
+        }
+        .btn3{
+          background-color: white;
+          color: black;
+          padding: 15px 55px;
+          font-size: 20px;
+          border: none;
+        }
+        .btn3:hover{
+          background-color: black;
+          color: white;
+        }
+        .p-10{
+          padding: 7%;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg py-3 px-5 color">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <img src="img/logo.png" alt="" class="size">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse font ml-10" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-0">
+                  <li class="nav-item ms-2">
+                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link active" aria-current="page" href="About.html">ABOUT</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link active" aria-current="page" href="contact.html">CONTACTS</a>
+                  </li>
+                </ul>
+                <i class="fa-regular fa-user"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa-regular fa-heart"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </nav>
+    </div> 
+  
+    <div class="row">
+      <div class="card text-bg-dark">
+        <img src="img/watch1.png" class="card-img" alt="...">
+        <div class="card-img-overlay pt-10 ms-10">
+          <button class="btn0">Now Available</button><br><br>
+          <h2 class="card-title">Enchanted Garden</h1>
+          <h2 class="card-title">Unisex Watch</h1><br><br>
+          <button class="btn">PRE - ORDER NOW</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="card-group pt-3">
+        <div class="card m-3">
+          <img src="img/watch2.png" class="card-img-top" alt="..." height="480px">
+          <div class="card-img-overlay text-light pt-20 ms-20">
+              <h3>Dress Watches <sup>8</sup></h3>
+          </div>
+        </div>
+        <div class="card m-3">
+          <img src="img/watch3.png" class="card-img-top" alt="..." height="480px">
+          <div class="card-img-overlay text-light pt-20 ms-20">
+            <h3>Men's Watches <sup>16</sup></h3>
+        </div>
+        </div>
+        <div class="card m-3">
+          <img src="img/watch4.png" class="card-img-top" alt="..." height="480px">
+          <div class="card-img-overlay text-light pt-20 ms-20">
+            <h3>Women's Watches <sup>16</sup></h3>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center pt">
+      <div class="col-12">
+          <h3>Trending Now</h3>
+      </div>
+    </div>
+    <div class="row text-center pt-3">
+      <div class="col-12">
+          <h5>
+            We are happy to introduce the new Lawson Collection. These are three quartz models <br>
+            designed with simplicity and elegance kept in mind.					</h5>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row pt-5">
+        <div class="card-group">
+          <div class="card m-3 border1">
+            <div class="outer">
+              <img src="img/watch5.png" class="card-img-top" alt="...">
+              <div class="figure"><button class="btn3">ADD TO CART</button></div>
+                <div class="card-body text-center ">
+                <h5 class="card-title color1">cocomi</h5>
+                <p class="card-text">Timex Easy Reader White</p>
+                <p class="card-text"><b>$225</b>&nbsp;&nbsp;<del>$460</del></p>
+              </div>
+            </div>
+          </div>
+          <div class="card m-3 border1">
+            <div class="outer">
+              <img src="img/watch6.png" class="card-img-top" alt="...">
+              <div class="figure"><button class="btn3">ADD TO CART</button></div>
+              <div class="card-body text-center">
+                <h5 class="card-title color1">Olivia burton</h5>
+                <p class="card-text">Modern Wood No. 0</p>
+                <p class="card-text"><b>$350</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="card m-3 border1">
+            <div class="outer">
+              <img src="img/watch7.png" class="card-img-top" alt="...">
+              <div class="figure"><button class="btn3">ADD TO CART</button></div>
+              <div class="card-body text-center">
+                <h5 class="card-title color1">Olivia burton,Timex</h5>
+                <p class="card-text">Terrazzo Florals Grey (Ob16Tz01)</p>
+                <p class="card-text"><b>$550</b></p>
+              </div>
+            </div>
+                       
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row pt-10">
+            <div class="col-md-7">
+              <img src="img/watch8.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-5 align-self-center">
+                <h4>Spring Winter 2022</h4><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                  labore et dolore magna aliqua.Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p><br>
+                  <button class="btn1">SHOP THE LOOK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <br>
+    <div class="row pt-10">
+      <div class="card text-bg-dark">
+        <img src="img/watch9.png" class="card-img" alt="..." height="650px">
+        <div class="card-img-overlay pt-10 ms-10 text-center">
+          <p class="font">10% Off & The Best Indie Art Ever!</p><br>
+          <h1>Be The First To <br>Get Limited Editions</h1><br>
+          <button class="btn2">SHOP NEW COLLECTION</button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row text-center pt">
+      <div class="col-12">
+          <h3>Feature Product</h3>
+      </div>
+    </div>
+    <div class="row text-center pt-3">
+      <div class="col-12">
+          <h5>
+            Hurry up to own our best products on the occasion of discounts to <br>give to friends and relatives</h5>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row pt-5">
+        <div class="card-group">
+          <div class="card m-3 border1">
+            <img src="img/watch5.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title color1">cocomi</h5>
+              <p class="card-text">Timex Easy Reader White</p>
+              <p class="card-text"><b>$225</b>&nbsp;&nbsp;<del>$460</del></p>
+            </div>
+          </div>
+          <div class="card m-3 border1">
+            <img src="img/watch6.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title color1">Olivia burton</h5>
+              <p class="card-text">Modern Wood No. 0</p>
+              <p class="card-text"><b>$350</b></p>
+            </div>
+          </div>
+          <div class="card m-3 border1">
+            <img src="img/watch7.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title color1">Olivia burton,Timex</h5>
+              <p class="card-text">Terrazzo Florals Grey (Ob16Tz01)</p>
+              <p class="card-text"><b>$550</b></p>
+            </div>
+          </div>
+          <div class="card m-3 border1">
+            <img src="img/watch10.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title color1">cocomi</h5>
+              <p class="card-text">Cocomi Rainbow Rose Gold</p>
+              <p class="card-text"><b>$225</b>&nbsp;&nbsp;<del>$325</del></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-12">
+          <h3>@lenos.store</h3>
+      </div>
+    </div>
+    <div class="row text-center pt-3">
+      <div class="col-12">
+          <h5>Follow us on Instagram</h5>
+      </div>
+    </div>
+    
+      <div class="row pt-5 ms-4 p-10">
+          <div class="col-2"><img src="img/watch11.png" alt="" height="200px" width="200px"></div>
+          <div class="col-2"><img src="img/watch12.png" alt="" height="200px" width="200px"></div>
+          <div class="col-2"><img src="img/watch13.png" alt="" height="200px" width="200px"></div>
+          <div class="col-2"><img src="img/watch14.png" alt="" height="200px" width="200px"></div>
+          <div class="col-2"><img src="img/watch15.png" alt="" height="200px" width="200px"></div>
+          <div class="col-2"><img src="img/watch16.png" alt="" height="200px" width="200px"></div>
+      </div>
+    
+    <br>
+    <div class="row height1 bg-color align-items-center pt-5">
+      <div class="col-4 text-center">
+          <img src="img/logo.png" alt="" class="size"><br><br>
+          <h6>+80 123 567 89</h6><br>
+          <h6>283 N. Glenwood Street, Levittown, NY</h6>
+          <i class="fa-brands fa-facebook icon"></i>&nbsp;&nbsp;
+          <i class="fa-brands fa-twitter icon"></i>&nbsp;&nbsp;
+          <i class="fa-brands fa-instagram icon"></i>
+      </div>
+      <div class="col">
+          <h6>HELP</h6><br>
+          <h5 class="line">Cart</h5>
+          <a href="review.html"><h5 class="line">Reviews</h5></a>
+          <a href="About.html"><h5 class="line">About us</h5></a>
+          <a href="contact.html"><h5 class="line">Contact us</h5></a>
+          <h5 class="line">My Account</h5>
+      </div>
+      <div class="col">
+          <h6>SERVICES</h6><br>
+          <h5 class="line">Shop</h5>
+          <h5 class="line">New designs 1</h5>
+          <h5 class="line">New designs 2</h5>
+          <h5 class="line">New designs 3</h5>
+          <h5 class="line">Product Single</h5>
+      </div>
+      <div class="col-3">
+        <i class="fa-regular fa-envelope fa-3x"></i><br><br>
+        <h5 class="text-black">SUBSCRIBE OUR NEWSLETTER</h5><br>
+        <h5>Plus, hear about the latest and greatest from our family of brands</h5><br>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row height1 bg-color align-items-center pt-3">
+      <div class="col text-center">
+          <hr>
+          <br>
+          <h5>Copyright © <font color="#ae845f">2022</font>. All Rights Reserved</h5>
+      </div>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</html>

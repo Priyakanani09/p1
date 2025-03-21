@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/all.min.css">
+    <style>
+        .ml-10{
+            margin-left: 25%;
+        }
+        .font{
+            font-size: 17px;
+        }
+        .color{
+            background-color: rgb(250, 250, 250);
+        }
+        .pb-10{
+          padding-bottom: 10%;
+        }
+        h1{
+          font-family: playfair Display;
+          font-size: 50px;
+        }
+        h6{
+            font-weight: 400;
+            font-size: 19px;
+        }
+        .bg-color{
+          background-color: #f0e9e9;
+        }
+        h5{
+          font-weight: normal;
+          color: #696565;
+          font-size: 19px;
+        }
+        .line{
+          line-height: 2;
+        } 
+        a{
+          text-decoration: none;
+        } 
+        .height{
+            height: 400px;
+        }
+        .icon{
+          border: 1px solid rgb(190, 185, 185);
+          border-radius: 20px;
+          padding: 10px 10px 10px 10px;
+          background-color: #f7f1f1;
+        }
+        .btn1{
+          background-color: #ae845f;
+          color: white;
+          padding: 15px 35px;
+          /* margin: 10px; */
+          border-radius: 0px;
+          border: none;
+          font-size: 20px;
+        }
+        .btn1:hover{
+          background-color: black;
+          color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg py-3 px-5 color">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <img src="img/logo.png" alt="" class="size">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse font ml-10" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-lg-0">
+                  <li class="nav-item ms-2">
+                    <a class="nav-link active" aria-current="page" href="layout.html">HOME</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link active" aria-current="page" href="About.html">ABOUT</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link active" aria-current="page" href="#">CONTACTS</a>
+                  </li>
+                </ul>
+                <i class="fa-regular fa-user"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa-regular fa-heart"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="card text-bg-dark">
+          <img src="img/watch17.png" class="card-img" alt="...">
+          <div class="card-img-overlay text-center pt-5">
+                <h1 class="card-title">Contacts</h1>
+                <h6 class="card-title">Home / Contacts</h6>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row pt-5 pb-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.546649488594!2d-0.12209412349735066!3d51.50318637181238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2sin!4v1734750681154!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row pb-10">
+            <div class="col-6">
+                <h1>How To Find Us</h1>
+                <h5>Get in touch to discuss your employee wellbeing needs today. Please <br> give us a call, drop us an email or 
+                  fill out the contact form and we’ll <br> get back to you.</h5><br>
+                <h6>+80 123 567 89</h6><br>
+                <h6>283 N. Glenwood Street, Levittown, NY</h6><br>
+                <i class="fa-brands fa-facebook icon"></i>&nbsp;&nbsp;
+                <i class="fa-brands fa-twitter icon"></i>&nbsp;&nbsp;
+                <i class="fa-brands fa-instagram icon"></i>&nbsp;&nbsp;
+                <i class="fa-brands fa-youtube icon"></i>
+            </div>
+            <div class="col-6">
+                <h1>Contact Us</h1>
+                <h5>Your email address will not be published. Required fields are marked *</h5><br>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name *" aria-label="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name *" aria-label="Last name">
+                  </div><br><br>
+                  <div>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                  </div><br><br>
+                  <div>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Your Website">
+                  </div><br><br>
+                  <div>
+                    <textarea class="form-control" placeholder="Message..." id="floatingTextarea2" style="height: 100px"></textarea>
+                  </div>
+                </div><br>
+                <button class="btn1">GET IN TOUCH</button>
+            </div>
+        </div>
+    </div>
+    <div class="row bg-color align-items-center pt-5">
+        <div class="col-4 text-center">
+            <img src="img/logo.png" alt="" class="size"><br><br>
+            <h6>+80 123 567 89</h6><br>
+            <h6>283 N. Glenwood Street, Levittown, NY</h6>
+            <i class="fa-brands fa-facebook icon"></i>&nbsp;&nbsp;
+            <i class="fa-brands fa-twitter icon"></i>&nbsp;&nbsp;
+            <i class="fa-brands fa-instagram icon"></i>
+        </div>
+        <div class="col">
+            <h6>HELP</h6><br>
+            <h5 class="line">Cart</h5>
+            <a href="review.html"><h5 class="line">Reviews</h5></a>
+            <a href="About.html"><h5 class="line">About us</h5></a>
+            <h5 class="line">Contact us</h5>
+            <h5 class="line">My Account</h5>
+        </div>
+        <div class="col">
+            <h6>SERVICES</h6><br>
+            <h5 class="line">Shop</h5>
+            <h5 class="line">New designs 1</h5>
+            <h5 class="line">New designs 2</h5>
+            <h5 class="line">New designs 3</h5>
+            <h5 class="line">Product Single</h5>
+        </div>
+        <div class="col-3">
+          <i class="fa-regular fa-envelope fa-3x"></i><br><br>
+          <h5 class="text-black">SUBSCRIBE OUR NEWSLETTER</h5><br>
+          <h5>Plus, hear about the latest and greatest from our family of brands</h5><br>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row bg-color align-items-center pt-3">
+        <div class="col text-center">
+            <hr>
+            <br>
+            <h5>Copyright © <font color="#ae845f">2022</font>. All Rights Reserved</h5>
+        </div>
+      </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</html>
